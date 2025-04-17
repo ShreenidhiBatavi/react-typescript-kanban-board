@@ -1,1 +1,1 @@
-# react-typescript-kanban-board
+# react-typescript-kanban-boar
