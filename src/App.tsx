@@ -3,8 +3,6 @@ import { Status, statuses, Task } from "./utils/data-tasks";
 import { data } from "./data.js";
 import styled from '@emotion/styled'
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
 function App() {
   console.log({ data });
 
