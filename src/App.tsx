@@ -4,7 +4,6 @@ import { data } from "./data.js";
 import styled from '@emotion/styled'
 import Card from '@mui/material/Card';
 function App() {
-  console.log({ data });
 
   const [tasks, setTasks] = useState<Task[]>(data);
   const columns = statuses.map((status) => {
