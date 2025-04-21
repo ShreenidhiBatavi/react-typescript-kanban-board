@@ -13,9 +13,7 @@ function App() {
       taskInColumns,
     };
   });
-  console.log(columns);
   const handleDragEnter = (status: Status) => {
-    console.log({ status });
   };
   const handleDrop = (
     e: React.DragEvent<HTMLDivElement>,
