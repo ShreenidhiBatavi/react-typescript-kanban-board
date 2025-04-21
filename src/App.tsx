@@ -20,11 +20,6 @@ function App() {
     status: Status,
     item: any
   ) => {
-    // console.log({
-    //   e,
-    //   status,
-    //   item
-    // });
     const droppedItemId = e.dataTransfer.getData("itemId");
     console.log("Dropped item ID:", { droppedItemId });
     const itemone = tasks.filter((el) => el.id === droppedItemId)[0];
